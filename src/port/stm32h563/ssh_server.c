@@ -99,7 +99,7 @@ static int ssh_userauth_cb(byte authType, WS_UserAuthData *authData, void *ctx)
 
     /* Check username */
     if (authData->usernameSz != strlen(SSH_USERNAME) ||
-        memcmp(authData->username, SSH_USERNAME, authData->usernameSz) != 0) {
+        memcmp(authData->username, SSH_USERNAME, authData->usernameSz) != 0 {
         debug_print("SSH: Invalid username\n");
         return WOLFSSH_USERAUTH_INVALID_USER;
     }
