@@ -1,0 +1,3 @@
+# CI replay marker for syntax/make
+feature_branch: replay-1ba41e25
+workflow: .github/workflows/stm32h563-m33mu-ssh-tzen.yml
